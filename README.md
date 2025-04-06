@@ -125,3 +125,9 @@ This operator always returns true or false.
 4. >=
 5. ==
 6. !=
+
+
+### Logical Operators
+1. Logical AND (&&)
+2. Logical NOT (!)
+3. Logical OR (||)
