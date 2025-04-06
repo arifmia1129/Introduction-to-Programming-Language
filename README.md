@@ -45,3 +45,13 @@ The mainly used data types in C programming language:
  * 1 byte -> 8 bit (1, 0, 1, 0, 0, 1, 1, 0)
 
 
+ ### Printing variables
+ If we want to print variables then need to use format specifiers.
+
+ 1. int -> %d
+ 2. float -> %f
+ 3. char -> %c
+
+ for fix the float fraction numbers: %.2f
+
+

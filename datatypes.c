@@ -7,5 +7,9 @@ int main() {
 
     char section = 'A';
 
+    printf("Integer number: %d\n", num1);
+    printf("Floating point number: %.2f\n", x);
+    printf("Character: %c\n", section);
+
     return 0;
 }
