@@ -1,3 +1,4 @@
-The entered integer value is: 10
-The entered float value is: 20.100000
-The entered character value is: b
+Integer value: 1000000000
+Long integer value: 1000000000000
+Floating point number: 23.888887
+Double precision floating point number:2838333.934239

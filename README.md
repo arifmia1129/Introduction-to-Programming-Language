@@ -73,3 +73,26 @@ For taking input, need to use scanf function.
 ```
 
 need to use & sign before variables name so that we can override the previous value of this variable.
+
+
+### Data type limitations in C
+There are limitations of the data type.
+
+* For integer:
+
+1 bytes -> 8 bit
+
+int -> 4 bytes (32 bit)
+
+2^32 -> 4294967296
+
+that means for integer c can handle up to 10^9 values
+
+
+* For float
+Can handle around 8-9 numbers (before & after .)
+
+
+#### if we want to use more:
+* long long integer -> %lld (format specifier)
+* double -> %lf (format specifier)
