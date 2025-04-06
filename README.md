@@ -1,10 +1,10 @@
-# Notes
+## Notes
 
-## Header File
+### Header File
 If we want to use some built-in functions of the C programming language, then we should use header files.  
 For example, if we want to use the `printf` function, then we need to use the `stdio.h` header file.
 
-## Main Function
+### Main Function
 C programming language runs the program from the `main` function.
 
 ### Main Function Structure:
@@ -34,3 +34,14 @@ The mainly used data types in C programming language:
 2. float -> 2.5, -10.45, 5.4
 3. char -> 'a', 'b', '@'
 4. bool -> true, false
+
+
+### Size of data types
+
+1. int -> 4 byte (32 bit)
+2. float -> 4 byte (32 bit)
+3. char -> 1 byte (8 bit)
+
+ * 1 byte -> 8 bit (1, 0, 1, 0, 0, 1, 1, 0)
+
+
