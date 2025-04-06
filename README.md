@@ -23,3 +23,13 @@ C programming language executes from the `main` function. After all functionalit
 If we want to use any built-in functions of the C programming language then must be use header files on top.
 
 stdio.h -> stdio: Standard input output and .h means header file
+
+
+### Variables and data types
+If we want to store anything then need to declare variables.
+
+The mainly used data types in C programming language:
+1. int -> 101, -205, 5
+2. float -> 2.5, -10.45, 5.4
+3. char -> 'a', 'b', '@'
+4. bool -> true, false
