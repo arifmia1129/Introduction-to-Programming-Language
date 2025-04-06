@@ -131,3 +131,7 @@ This operator always returns true or false.
 1. Logical AND (&&)
 2. Logical NOT (!)
 3. Logical OR (||)
+
+
+### if else statement
+if we want to conditionally then need to use if else statement
