@@ -114,3 +114,14 @@ For mathematical operations we need to use operators. There are 5 types of opera
 5. Modulus (%)
 
 #### Modulus operator is return value after divided
+
+
+### Relational Operators
+This operator always returns true or false.
+
+1. <
+2. <=
+3. >
+4. >=
+5. ==
+6. !=
