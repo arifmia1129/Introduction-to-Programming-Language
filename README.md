@@ -102,3 +102,13 @@ Can handle around 8-9 numbers (before & after .)
 1. The variables name must be start with letter or underscore -> num, _num
 2. The variables name only contains letters, underscore, numbers not special characters, spacing, etc. -> first_name, prayer1, designation
 3. The variables name does not contains reserved keywords -> int, for, if, else etc
+
+
+### Arithmetic Operators
+For mathematical operations we need to use operators. There are 5 types of operators in Arithmetic operation.
+
+1. Summation (+)
+2. Subtraction (-)
+3. Multiplication (*)
+4. Division (/)
+5. Modulus (%)

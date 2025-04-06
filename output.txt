@@ -1,1 +1,1 @@
-The entered numbers: (second, first) 20, 10
+The result of division with num1 & num2: 7.500000
