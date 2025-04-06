@@ -1,4 +1,1 @@
-Integer value: 1000000000
-Long integer value: 1000000000000
-Floating point number: 23.888887
-Double precision floating point number:2838333.934239
+The entered numbers: (second, first) 20, 10
