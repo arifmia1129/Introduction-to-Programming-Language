@@ -96,3 +96,9 @@ Can handle around 8-9 numbers (before & after .)
 #### if we want to use more:
 * long long integer -> %lld (format specifier)
 * double -> %lf (format specifier)
+
+
+### Rules for Naming Variables
+1. The variables name must be start with letter or underscore -> num, _num
+2. The variables name only contains letters, underscore, numbers not special characters, spacing, etc. -> first_name, prayer1, designation
+3. The variables name does not contains reserved keywords -> int, for, if, else etc
