@@ -61,3 +61,15 @@ The mainly used data types in C programming language:
  If want to print bool variable then we are using int format specifier %d, its return 0/1.
 
 
+ ### Why We Need to Take Input
+ To make our system/software dynamic then we need to take input from user
+
+
+### How to take input in C
+For taking input, need to use scanf function.
+
+```c
+    scanf("%d %f %c", &i, &f, &c);
+```
+
+need to use & sign before variables name so that we can override the previous value of this variable.

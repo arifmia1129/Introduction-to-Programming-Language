@@ -1,4 +1,3 @@
-Integer number: 10
-Floating point number: 2.50
-Character: A
-is okay: 0
+The entered integer value is: 10
+The entered float value is: 20.100000
+The entered character value is: b
