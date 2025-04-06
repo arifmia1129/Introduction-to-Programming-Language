@@ -112,3 +112,5 @@ For mathematical operations we need to use operators. There are 5 types of opera
 3. Multiplication (*)
 4. Division (/)
 5. Modulus (%)
+
+#### Modulus operator is return value after divided
