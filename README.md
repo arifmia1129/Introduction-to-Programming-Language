@@ -55,3 +55,9 @@ The mainly used data types in C programming language:
  for fix the float fraction numbers: %.2f
 
 
+ ### Boolean in C
+ For using boolean in C then need to use stdbool header.
+
+ If want to print bool variable then we are using int format specifier %d, its return 0/1.
+
+

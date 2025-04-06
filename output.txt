@@ -1,3 +1,4 @@
 Integer number: 10
 Floating point number: 2.50
 Character: A
+is okay: 0
