@@ -138,3 +138,8 @@ if we want to conditionally then need to use if else statement
 
 ### If else ladder
 When we need to add multiple conditions then we will use if else ladder
+
+
+### Nested if else
+If need to write condition under the another if/else statement then it called as a nested if/else
+
