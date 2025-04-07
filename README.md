@@ -135,3 +135,6 @@ This operator always returns true or false.
 
 ### if else statement
 if we want to conditionally then need to use if else statement
+
+### If else ladder
+When we need to add multiple conditions then we will use if else ladder
