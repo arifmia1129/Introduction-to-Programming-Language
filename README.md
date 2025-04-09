@@ -166,3 +166,7 @@ There are mainly two parts of for loop. Num 1 is condition part and num 2 is exe
 ### Break statement
 
 If need to break/stop the loop based on any condition then we can use break statement
+
+### Continue statement
+
+If need to skip anything then we can use continue. If use continue then it will skip other part for this particular condition.
