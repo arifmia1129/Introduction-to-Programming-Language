@@ -162,3 +162,7 @@ There are mainly two parts of for loop. Num 1 is condition part and num 2 is exe
         execution part;
     }
 ```
+
+### Break statement
+
+If need to break/stop the loop based on any condition then we can use break statement
