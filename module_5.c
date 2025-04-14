@@ -94,26 +94,80 @@
 
 // Given a number N, and N numbers, find maximum number in these N numbers.
 
+// #include <stdio.h>
+
+// int main () {
+//     int count;
+
+//     scanf("%d", &count);
+
+//     int max_num = 0;
+
+//     for(int i = 1; i <= count; i++) {
+//         int N;
+
+//         scanf("%d", &N);
+
+//         if(N > max_num) {
+//             max_num = N;
+//         }
+//     }
+
+//     printf("%d", max_num);
+    
+//     return 0;
+// }
+
+
+// Given a number N. Print the maltiplication table of the number from 1 to 12
+
+// #include <stdio.h>
+
+// int main () {
+
+//     int N;
+
+//     scanf("%d", &N);
+
+//     for(int i = 1; i <= 12; i++) {
+//         printf("%d * %d = %d\n", N, i, N * i);
+//     }
+    
+//     return 0;
+// }
+
+
+
+// Given a number N. Print the digits of that number from right to left separated by space.
+
 #include <stdio.h>
 
 int main () {
-    int count;
+    int T;
 
-    scanf("%d", &count);
+    scanf("%d", &T);
 
-    int max_num = 0;
 
-    for(int i = 1; i <= count; i++) {
+    for(int i = 1; i <= T; i++) {
+        
         int N;
-
+        
         scanf("%d", &N);
-
-        if(N > max_num) {
-            max_num = N;
+        
+        if(N == 0) {
+            printf("%d", N);
         }
-    }
 
-    printf("%d", max_num);
+        int new_num = N;
+
+        while(new_num) {
+            printf("%d ", new_num % 10);
+            
+            new_num = new_num / 10;
+        }
+        printf("\n");
+    }
     
     return 0;
 }
+
