@@ -69,24 +69,51 @@
 
 // Given multiple lines each line contains a number X which is a password. Print "Wrong" if the password is incorrect otherwise, print "Correct" and terminate the program.
 
+// #include <stdio.h>
+
+// int main () {
+//     int got_correct = 0;
+
+//     while(!got_correct) {
+//         int N;
+
+//         scanf("%d", &N);
+
+//         if(N == 1999) {
+//             printf("Correct");
+
+//             got_correct = 1;
+//         }else {
+//             printf("Wrong\n");
+//         }
+//     }
+    
+//     return 0;
+// }
+
+
+// Given a number N, and N numbers, find maximum number in these N numbers.
+
 #include <stdio.h>
 
 int main () {
-    int got_correct = 0;
+    int count;
 
-    while(!got_correct) {
+    scanf("%d", &count);
+
+    int max_num = 0;
+
+    for(int i = 1; i <= count; i++) {
         int N;
 
         scanf("%d", &N);
 
-        if(N == 1999) {
-            printf("Correct");
-
-            got_correct = 1;
-        }else {
-            printf("Wrong\n");
+        if(N > max_num) {
+            max_num = N;
         }
     }
+
+    printf("%d", max_num);
     
     return 0;
 }
