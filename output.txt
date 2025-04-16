@@ -1,1 +1,1 @@
-The min number is: 1
+1
