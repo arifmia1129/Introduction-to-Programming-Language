@@ -1,1 +1,1 @@
-Summation of array is: 15
+2 4 
