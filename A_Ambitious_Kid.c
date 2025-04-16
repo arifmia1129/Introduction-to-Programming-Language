@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main () {
     int n;
@@ -16,7 +17,8 @@ int main () {
    int smallest;
 
    if(arr[0] < 0) {
-    smallest = arr[0] * -1;
+    smallest =abs(arr[0]);
+    // smallest = arr[0] * -1;
    }else {
     smallest = arr[0];
    }
