@@ -1,1 +1,1 @@
-1 3 5 0 0 
+Summation of array is: 15
