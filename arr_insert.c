@@ -1,3 +1,37 @@
+// #include <stdio.h>
+
+// int main () {
+//     int n;
+
+//     scanf("%d", &n);
+
+//     int arr[n+1];
+
+//     for(int i = 0; i < n; i++) {
+//         scanf("%d", &arr[i]);
+//     }
+
+//     int idx, val;
+
+//     scanf("%d %d", &idx, &val);
+
+//     for(int i = n; i > 0; i--) {
+//         if(i == idx) {  
+//             arr[i] = arr[i-1];
+//             arr[i] = val;
+//             break;
+//         }else{
+//             arr[i] = arr[i-1];
+//         }
+//     }
+
+//     for(int i = 0; i <= n; i++) {
+//         printf("%d ", arr[i]);
+//     }
+
+//     return 0;
+// }
+
 #include <stdio.h>
 
 int main () {
@@ -8,22 +42,18 @@ int main () {
     int arr[n+1];
 
     for(int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
+       scanf("%d", &arr[i]);
     }
 
     int idx, val;
 
     scanf("%d %d", &idx, &val);
 
-    for(int i = n; i > 0; i--) {
-        if(i == idx) {  
-            arr[i+1] = arr[i];
-            arr[i] = val;
-            break;
-        }else{
-            arr[i + 1] = arr[i];
-        }
+    for(int i = n; i >= idx; i--) {
+        arr[i] = arr[i-1];
     }
+
+    arr[idx] = val;
 
     for(int i = 0; i <= n; i++) {
         printf("%d ", arr[i]);
