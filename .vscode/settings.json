@@ -6,6 +6,8 @@
     "*.embeddedhtml": "html",
     "limits.h": "c",
     "stdlib.h": "c",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "__bit_reference": "c",
+    "bitset": "c"
   }
 }
