@@ -93,3 +93,38 @@
     
 //     return 0;
 // }
+
+
+#include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main () {
+    // double n1 = 4.5;
+    // int ans = ceil(n1);
+    // printf("%d", ans);
+
+    // double n1 = 4.5;
+    // int ans = floor(n1);
+    // printf("%d", ans);
+
+    // double n1 = 4.5;
+    // int ans = round(n1);
+    // printf("%d", ans);
+
+    // double n1 = 4.5;
+    // int ans = round(n1);
+    // printf("%d", ans);
+
+    // int ans = sqrt(4);
+    // printf("%d", ans);
+
+    // int ans = pow(3, 2);
+    // printf("%d", ans);
+
+    int ans = abs(-3);
+    printf("%d", ans);
+
+    
+    return 0;
+}
