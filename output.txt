@@ -1,2 +1,1 @@
-Address of X from main function: 0x16b6bf0d8
-Address of X from main function: 0x16b6bf0ac
+20
