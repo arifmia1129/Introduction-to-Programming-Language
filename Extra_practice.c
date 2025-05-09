@@ -115,12 +115,13 @@
 
 #include <stdio.h>
 
-void swap_it(int* n1, int* n2, int n1_val, int n2_val) {
+void swap_it(int* n1, int* n2) {
+    int tmp = *n2;
 
 
-    *n2 = n1_val;
+    *n2 = *n1;
 
-    *n1 = n2_val;
+    *n1 = tmp;
     
 }
 
@@ -129,7 +130,7 @@ int main () {
 
     scanf("%d %d ", &n1, &n2);
 
-   swap_it(&n1, &n2, n1, n2);
+   swap_it(&n1, &n2);
 
    printf("%d %d", n1, n2);
     
