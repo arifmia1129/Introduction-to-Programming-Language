@@ -6,9 +6,9 @@ void recursive_fun(int num) {
         return;
     }
 
-    printf("%d\n", num);
-
+    
     recursive_fun(num + 1);
+    printf("%d\n", num);
 }
 
 int main () {
