@@ -46,18 +46,19 @@ int main () {
         }
     }
 
-    int is_zero_matrix = 1;
+    // int is_zero_matrix = 1;
+    int total_val = r * c;
+    int zero_count = 0;
 
      for(int i = 0; i < r; i++) {
         for(int j = 0; j < c; j++) {
-            if(a[i][j] != 0) {
-                is_zero_matrix = 0;
-                break;
+            if(a[i][j] == 0) {
+               zero_count++;
             }
         }
     }
 
-    if(is_zero_matrix) {
+    if(zero_count == total_val) {
         printf("Yes, this is a zero matrix");
     }else{
         printf("No, this is not a zero matrix");
