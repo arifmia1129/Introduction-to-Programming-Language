@@ -1,16 +1,15 @@
 #include <stdio.h>
 
-void recursive_fun(int a[], int n, int i, long long int sum) {
+long long int cal_sum(int a[], int n, int i) {
 
     if(n == i) {
-        printf("%lld", sum);
-        return;
+        return 0;
     }
 
-    sum += a[i];
+   long long int sum = cal_sum(a, n, i + 1);
     
 
-    recursive_fun(a, n, i + 1, sum);
+   return sum + a[i];
 
 }
 
@@ -25,7 +24,9 @@ int main () {
         scanf("%d", &a[i]);
     }
 
-    recursive_fun(a, n, 0, 0);
+   long long sum = cal_sum(a, n, 0);
+
+   printf("%lld", sum);
     
     return 0;
 }
