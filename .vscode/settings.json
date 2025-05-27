@@ -9,6 +9,9 @@
     "stdio.h": "c",
     "__bit_reference": "c",
     "bitset": "c",
-    "ratio": "c"
+    "ratio": "c",
+    "iostream": "cpp",
+    "ostream": "cpp",
+    "new": "cpp"
   }
 }
